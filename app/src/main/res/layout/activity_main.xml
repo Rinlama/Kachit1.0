@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffe5e5e5"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="86dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/SignUpButton"
+        android:onClick="OnClickLogin"
+        android:background="#ff007bcc"
+        android:textColor="#fffefefe"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Post"
+        android:id="@+id/AddPostBtn"
+        android:background="#ff007bcc"
+        android:textColor="#fffefefe"
+        android:onClick="AddPostEvent"
+
+
+        android:layout_gravity="right" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffefefe"
+        android:background="#003E50"
+        android:text="Posting"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

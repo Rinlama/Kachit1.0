@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kachit1.0</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="username">Name</string>
+    <string name="password">Email</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_loginn">Loginn</string>
+    <string name="title_activity_test_login">testLogin</string>
+    <string name="title_activity_signup_testing">SignupTesting</string>
+</resources>

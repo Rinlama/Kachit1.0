@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:text="Add New Post"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#ff1f85ff"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#fffefefe"
+        android:layout_weight="0.09"
+        android:layout_gravity="center_horizontal" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+            <TextView
+                android:text="Name"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/nameEditTxt"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+
+                />
+             </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+    <TextView
+            android:text="Email"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/emailEditTxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            />
+
+
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+    <TextView
+            android:text="Title"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/titleEditTxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            />
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:text="Address"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/addressEditTxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:text="Description"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/descriptionEditTxt"
+            android:layout_width="279dp"
+            android:layout_height="123dp"
+
+            />
+    </LinearLayout>
+    <Button
+        android:text="Submit"
+        android:id="@+id/sendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="savePosting"
+        />
+
+</LinearLayout>
